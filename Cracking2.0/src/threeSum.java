@@ -1,4 +1,5 @@
-/* I got the major idea from Internet and then implemented and debugged this program by myself. 
+/* I got the major idea from Internet and then implemented and debugged this 
+ * program by myself. 
  * 
  * Algorithm: use two pointers, actually three pointers:
  * first, set one pointer at the beginning to traverse the whole array,
