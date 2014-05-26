@@ -94,12 +94,13 @@ public class repeatingSubstring {
 
 		//String s = "abababababab";
 		//		String s = "aaabbbaaabbbaaabbb";
-		String s = "aaaaaaaa";
+		//String s = "aaaaaaaa";
 		//String s = "abcdbcde";
 
 		//String s = "aabaaaba"; 
 		//	String s = "abcdefabcabcdefabc";
 		//String s = "aabaaabaaaba";
+		String s = "ababababcdababab";
 		System.out.println(s.length());
 		System.out.println(repeat(s));
 	}

@@ -4,7 +4,7 @@
  * have the same value. */
 
 /* This is a super easy question, but I didn't solve it by myself, simply because 
- * I'm not familiar with recursive at all! I need mor and more practice for recursive! */
+ * I'm not familiar with recursive at all! I need more and more practice for recursive! */
 
 public class sameTree {
 	public static boolean isSameTree(TreeNode p, TreeNode q) {
@@ -25,9 +25,11 @@ public class sameTree {
 		TreeNode root1 = new TreeNode(1);
 		root1.left = new TreeNode(2);
 		root1.right = new TreeNode(3);
+		root1.left.left = new TreeNode(4);
 		TreeNode root2 = new TreeNode(1);
 		root2.left = new TreeNode(2);
-		root2.right = new TreeNode(4);
+		root2.right = new TreeNode(3);
+		root2.left.left = new TreeNode(4);
 		System.out.println(isSameTree(root1, root2));
 	}
 }

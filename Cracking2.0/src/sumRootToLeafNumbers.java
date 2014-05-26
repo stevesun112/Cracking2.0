@@ -1,4 +1,5 @@
-/* This is really a beautiful program, I didn't implement it by myself, instead I copied it completely online.
+/* This is really a beautiful program, I didn't implement it by myself, 
+	instead I copied it completely online.
  * It's really amazing when you single step go thru this program, you'll appreciate its delicacy. */
 
 import java.util.ArrayList;
