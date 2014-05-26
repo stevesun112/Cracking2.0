@@ -86,7 +86,7 @@ public class subsetsII {
 		return res;
 	}
 	public static void main(String args[]){
-		int [] S = new int[]{4, 0, 0};
+		int [] S = new int[]{1, 2, 2};
 		System.out.println(subsetsWithDup(S));
 		System.out.println("Program finished.");
 	}
