@@ -44,7 +44,6 @@ public class isPalindrome {
 					i++; 
 					j--;
 				}
-
 			}
 		}
 		/*Actually, no matter it's odd or even, there's no difference in dealing 
